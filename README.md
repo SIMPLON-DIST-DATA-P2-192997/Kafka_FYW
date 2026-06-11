@@ -23,7 +23,7 @@ avec un producer Python qui stream les événements eCommerce (dataset 2019).
 
 ```bash
 # 1. Cloner / se placer dans le dossier
-cd /home/fabgrall/wsl-projects/Kafka
+git clone https://github.com/SIMPLON-DIST-DATA-P2-192997/Kafka_FYW.git && cp Kafka_FYW
 
 # 2. Démarrer la stack de base
 docker compose up -d
