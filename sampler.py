@@ -20,7 +20,7 @@ from pathlib import Path
 
 from tqdm import tqdm
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent
 ARCHIVE_DIR = BASE_DIR / "archive"
 DATA_DIR = BASE_DIR / "data"
 
